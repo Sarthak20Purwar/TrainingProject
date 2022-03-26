@@ -1,0 +1,71 @@
+Web Element                                                                 
+
+Image                               
+Xpath      //img[@src="themes/beyondT/images/HRIS_logo.png"]                                           
+CSS        img[src="themes/beyondT/images/HRIS_logo.png"]   
+
+
+
+Login with Microsoft
+Xpath     //button[text() = 'Login with Microsoft']
+CSS       button[onclick="authNavigate();"]
+
+Login Panel
+Xpath    //span[text()='Login Panel']/..
+CSS      .active>a
+
+No Birthday
+Xpath   //div[@id="empscroll"]
+CSS     div#empscroll
+
+
+Celebrations
+Xpath      //div[@id='login']/following::h4[1]
+CSS        div[class='span3 emp_details']>h4
+
+
+Notification
+Xpath   //div[@id='login']/following::h4[2]
+CSS  
+
+scrollNotice
+Xpath   //div[@id="scrollerNotice"]
+CSS     div#scrollerNotice
+
+Employe Speak
+Xpath   //b[text()='Employee Speak']
+CSS
+
+
+Employee Box
+Xpath  //div[@class="box emp_speak"]
+CSS    div[class='box emp_speak']
+
+
+
+Login Here
+Xpath      //div[@class="loginTxt txtHideDiv alert alert-error"]/preceding::h4   
+CSS        div[id='login']>h4
+
+
+
+About HRIS
+Xpath   //span[text()='About HRIS']/..
+CSS      
+
+Celebration
+Xpath   //span[text()='Celebrations']/..
+CSS       
+
+
+HR Policy
+Xpath   //span[text()='HR Policy']/..
+CSS     
+
+Did You Know
+Xpath  //span[text()='Did you know?']/..
+CSS    
+
+
+
+

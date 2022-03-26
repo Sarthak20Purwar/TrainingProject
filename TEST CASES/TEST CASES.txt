@@ -1,0 +1,88 @@
+
+0) Launch the URL of amazon
+0.1) Open the browser
+0.2) Search for the site or enter the valid URL of amazon 
+0.3) Click the enter button -user enters in amazon site
+ 
+
+1) Sign in with valid email or number and valid password in amazon
+
+1.1) Click on the sign in button - sign in page pops up
+1.2) User enters a valid email or number - password window opens
+1.3) User enters a valid password 
+1.4) User checks Keep me signed in - details are saved 
+1.5) User clicks the sign in button - system signed in the user
+
+Expected Result-(User is signed in successfully in the amazon)
+
+2) Sign in with valid email or number and invalid password
+
+2.1) Click on sign in button - sign in page pops up
+2.2) User enters valid email or number -password window opens
+2.3) User enters invalid password 
+2.4) User clicks on sign in button - your password is incorrect
+
+Expected Result-(User is not signed in successfully in amazon)
+
+3) Sign in with invalid email or number 
+
+3.1) Click on sign in button - sign in page pops up
+3.2) User enters invalid email or number-We cannot find an account with that email address
+
+Expected Result-(User is not signed in successfully in amazon)
+
+
+4) (Test Cases for Home page)
+4.1) Check the loading time of the page
+4.2) Check that home page is displayed after signin or not 
+4.3) Check that user name is displayed in homepage 
+4.4) Check if clicks are taking to the right page and product deals
+4.5) Check if products with sale or featured products are visible on the top of the homepage
+4.6) Check the looking of the home page in different browsers and screen resolutions
+4.7) Check that the products displayed on homepage are categorized or not
+
+
+5) (Test cases for Search)
+5.1) Check that the search field accepts alphabets , numbers , or symbol
+5.2) Check that after entering search text and clicking on search button the search should work
+5.3) Check searches based on product name , brand name or keyword
+5.4) Check that the search results are relevant to the searches done by user
+5.5) Check that the sorting option is present on search result
+5.6) Check that filter should be present  
+5.7) Check number of results according to the filters done by user
+5.8) Check how many search results are displayed per page
+5.9) Check that user should be perform search in different categories like books , groceries
+
+6) (Test Cases for Product Detail Page)
+6.1) Check that the image and price of the product are displayed correctly
+6.2) Check that the product reviews are displayed or not
+6.3) Check the information IN STOCK/ OUT OF STOCK are displayed
+6.4) Check that the sellers rating are displayed
+6.5) Check the shipping information about product is displayed
+6.6) Check the product suggetions related to the searched product should be displayed
+
+7) (Test Cases for Shopping cart)
+7.1) Check that when user clicks on the add to cart , then product should be moved to cart
+7.2) Check that user is able to continue shopping after adding items to cart
+7.3) Check the quantity of item should be incremented/decremented if user adds/remove item in cart
+7.4) Check that the user not be able to add items beyond the limits
+7.5) Check that the total amount of all the items in the cart is displayed to the user
+7.6) Check that user should be able to apply coupons in cart
+7.7) Check that the items in cart should be present if user logs out and logs in again
+
+
+
+8) (Test Cases Payment Option)
+8.1)  Check that user should be displayed payment options such as Credit Card , Debit Card , Net Banking etc
+8.2)  Check if all the payment options are working fine
+8.3)  Check that delivery details of items should be displayed at checkout
+8.4)  Check that user should get order details by message or email
+8.5)  Check if the taxes are charged as per the location
+8.6)  Check if the option of applying coupons works
+8.7)  Check if the shipping costs are accurate 
+8.8)  Check that the session will be timed out if payment not done for a certain time
+8.9)  Check if the user should be provided with an option to save the payment method
+8.10) Check the return page once payment done by user
+8.11) Check that on successful payment Email or text message should be delivered to customer
+
+
